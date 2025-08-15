@@ -1,0 +1,11 @@
+Days_of_the_week = ("Monday", "Tuesday", "Wednessday", "Thursday", "Friday", "Saturday", "Sunday")
+print(Days_of_the_week)
+Months = ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+print(Months)
+name = input("Student's Name: ")
+Gender = input("Gender: ")
+Course_Track = input("Course track: ")
+Current_month_number = input("Current month number(1-12): ")
+Current_day_number = input("Current day number(1-7): ")
+user = name, Gender, Course_Track, Current_month_number, Current_day_number
+print(user)

@@ -1,0 +1,13 @@
+Item_1 = input("Enter Shopping Item: ")
+Item_2 = input("Enter Shopping Item: ")
+Item_3 = input("Enter Shopping Item: ")
+Shopping_list = Item_1, Item_2, Item_3
+print(Shopping_list)
+lst = list(Shopping_list)
+Item_4 = input("Add Extra Item: ")
+Item_5 = input("Add 2nd Extra Item: ")
+lst.append(Item_4)
+lst.append(Item_5)
+Shopping_list = tuple(lst)
+print(Shopping_list)
+print("|".join(Shopping_list))

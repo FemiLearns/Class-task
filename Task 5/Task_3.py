@@ -1,0 +1,10 @@
+State_1 = input("Enter 1st Nigerian state: ")
+State_2 = input("Enter 2nd Nigerian state: ")
+State_3 = input("Enter 3rd Nigerian state: ")
+State_4 = input("Enter 4th Nigerian state: ")
+State_5 = input("Enter 5th Nigerian state: ")
+States = State_1, State_2, State_3, State_4, State_5
+print(States)
+print(f"{States[0]}, and {States[-1]}")
+print("Lagos" in States)
+print(len(States))

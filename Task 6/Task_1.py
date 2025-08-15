@@ -1,0 +1,6 @@
+Fruits_1 = input("Enter 1st favourite fruit: ")
+Fruits_2 = input("Enter 2nd favourite fruit: ")
+Fruits_3 = input("Enter 3rd favourite fruit: ")
+Fruits_4 = input("Enter 4th favourite fruit: ")
+Fruits_5 = input("Enter 5th favourite fruit: ")
+print({Fruits_1, Fruits_2, Fruits_3, Fruits_4, Fruits_5})
